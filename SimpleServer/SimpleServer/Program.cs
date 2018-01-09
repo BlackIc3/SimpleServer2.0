@@ -21,7 +21,7 @@ namespace SimpleServer
 
         static void Main(string[] args)
         {
-            //Kleine Änderung
+            //Kleine Änderung, noch eine
             //Starten///////////////////////////////////////////////////////////////////////////////////
             ip = Dns.GetHostEntry(Dns.GetHostName()).AddressList.First(f => f.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork);
             Console.Write("Port: ");
